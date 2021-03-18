@@ -7,3 +7,23 @@ These OCaml bindings are distributed under the MIT license.
 
 [gribapi]: https://software.ecmwf.int/wiki/display/GRIB/Home
 [g2clib]: http://www.nco.ncep.noaa.gov/pmb/codes/GRIB2/
+
+## Requirements
+
+we use oasis here to generate setup.ml, configure, Makefile
+
+```bash
+opam install oasis
+```
+
+- pcre.h
+
+```bash
+brew install pcre
+```
+
+- grib_api.h
+
+```bash
+brew install eccodes
+```
