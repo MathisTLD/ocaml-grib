@@ -8,6 +8,10 @@ These OCaml bindings are distributed under the MIT license.
 [gribapi]: https://software.ecmwf.int/wiki/display/GRIB/Home
 [g2clib]: http://www.nco.ncep.noaa.gov/pmb/codes/GRIB2/
 
+## Usage
+
+install with `make install`
+
 ## Requirements
 
 we use oasis here to generate setup.ml, configure, Makefile
