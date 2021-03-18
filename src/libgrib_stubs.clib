@@ -1,15 +1,11 @@
 # OASIS_START
-# DO NOT EDIT (digest: a23679deb49a36a8a780a3ec235fa99e)
+# DO NOT EDIT (digest: 01797137b90ba8f1023094d3f7fe0fb5)
 grib_stubs.o
 g2clib_stubs.o
 g2clib-src/cmplxpack.o
 g2clib-src/compack.o
 g2clib-src/comunpack.o
-g2clib-src/dec_jpeg2000.o
-g2clib-src/dec_png.o
 g2clib-src/drstemplates.o
-g2clib-src/enc_jpeg2000.o
-g2clib-src/enc_png.o
 g2clib-src/g2_addfield.o
 g2clib-src/g2_addgrid.o
 g2clib-src/g2_addlocal.o

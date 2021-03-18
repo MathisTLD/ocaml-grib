@@ -1,5 +1,5 @@
 # OASIS_START
-# DO NOT EDIT (digest: cc1867a0ab7c7230a09679455d630e87)
+# DO NOT EDIT (digest: 4221943263f3adcb42d969b70a4ba221)
 # Ignore VCS directories, you can use the same kind of rule outside
 # OASIS_START/STOP if you want to exclude directories that contains
 # useless stuff for the build process
@@ -29,11 +29,7 @@ true: annot, bin_annot
 "src/g2clib-src/cmplxpack.c": oasis_library_grib_ccopt
 "src/g2clib-src/compack.c": oasis_library_grib_ccopt
 "src/g2clib-src/comunpack.c": oasis_library_grib_ccopt
-"src/g2clib-src/dec_jpeg2000.c": oasis_library_grib_ccopt
-"src/g2clib-src/dec_png.c": oasis_library_grib_ccopt
 "src/g2clib-src/drstemplates.c": oasis_library_grib_ccopt
-"src/g2clib-src/enc_jpeg2000.c": oasis_library_grib_ccopt
-"src/g2clib-src/enc_png.c": oasis_library_grib_ccopt
 "src/g2clib-src/g2_addfield.c": oasis_library_grib_ccopt
 "src/g2clib-src/g2_addgrid.c": oasis_library_grib_ccopt
 "src/g2clib-src/g2_addlocal.c": oasis_library_grib_ccopt
@@ -88,16 +84,8 @@ true: annot, bin_annot
 "src/g2clib-src/compack.c": package(bigarray)
 "src/g2clib-src/comunpack.c": package(bear)
 "src/g2clib-src/comunpack.c": package(bigarray)
-"src/g2clib-src/dec_jpeg2000.c": package(bear)
-"src/g2clib-src/dec_jpeg2000.c": package(bigarray)
-"src/g2clib-src/dec_png.c": package(bear)
-"src/g2clib-src/dec_png.c": package(bigarray)
 "src/g2clib-src/drstemplates.c": package(bear)
 "src/g2clib-src/drstemplates.c": package(bigarray)
-"src/g2clib-src/enc_jpeg2000.c": package(bear)
-"src/g2clib-src/enc_jpeg2000.c": package(bigarray)
-"src/g2clib-src/enc_png.c": package(bear)
-"src/g2clib-src/enc_png.c": package(bigarray)
 "src/g2clib-src/g2_addfield.c": package(bear)
 "src/g2clib-src/g2_addfield.c": package(bigarray)
 "src/g2clib-src/g2_addgrid.c": package(bear)
