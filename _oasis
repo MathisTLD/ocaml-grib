@@ -17,7 +17,7 @@ AlphaFeatures: compiled_setup_ml
 
 Flag jpeg
   Description: Link with a JPEG2000 library
-  Default:true
+  Default:false
 
 Flag jasper
   Description: Use jasper for JPEG2000 support
@@ -33,7 +33,7 @@ Flag openjpeg
 
 Flag png
   Description: Link with libpng
-  Default: true
+  Default: false
 
 Library grib
   Path:           src
@@ -52,11 +52,7 @@ Library grib
                   g2clib-src/cmplxpack.c,
                   g2clib-src/compack.c,
                   g2clib-src/comunpack.c,
-                  g2clib-src/dec_jpeg2000.c,
-                  g2clib-src/dec_png.c,
                   g2clib-src/drstemplates.c,
-                  g2clib-src/enc_jpeg2000.c,
-                  g2clib-src/enc_png.c,
                   g2clib-src/g2_addfield.c,
                   g2clib-src/g2_addgrid.c,
                   g2clib-src/g2_addlocal.c,
@@ -97,7 +93,7 @@ Library grib
                   g2clib-src/gridtemplates.h,
                   g2clib-src/grib2.h,
                   g2clib-src/pdstemplates.h
-  CCLib:          -lgrib_api
+  CCLib:          -leccodes
   CCOpt:          -O2 -g
   CompiledObject: best
   if flag(jpeg)
