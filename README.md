@@ -18,6 +18,9 @@ we use oasis here to generate setup.ml, configure, Makefile
 
 ```bash
 opam install oasis
+# deps
+opam install base-bytes batteries pcre
+opam install bear
 ```
 
 - pcre.h
